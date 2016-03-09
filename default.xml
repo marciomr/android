@@ -19,7 +19,7 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="marciomr/android_build" groups="pdk" >
+  <project path="build" name="marciomr/android_build" revision="sg-3.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="CyanogenMod/android" />
